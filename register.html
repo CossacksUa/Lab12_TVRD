@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій особистий блог</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Мій особистий блог</h1>
+        <p class="p_color">Тараненко Олександр</p>
+        <nav>
+            <a href="#">Вхід</a>
+            <a href="#">Реєстрація</a>
+        </nav>
+    </header>
+    <main>
+        <div class="registration-form">
+            <h2>Реєстрація користувача</h2>
+            <form>
+                <label for="surname">Прізвище</label>
+                <input type="text" id="surname" name="surname" required>
+
+                <label for="name">Ім'я</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="username">Логін</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="group">Навчальна група</label>
+                <select id="group" name="group">
+                    <option value="Виберіть">Виберіть</option>
+                    <option value="101-пТК">101-пТК</option>
+                    <option value="201-пТК">201-пТК</option>
+                    <option value="301-пТК">301-пТК</option>
+                    <!-- Add more groups if necessary -->
+                </select>
+
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm-password">Підтвердження паролю</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <button type="submit">Зареєструватись</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© Всі права захищені.</p>
+    </footer>
+</body>
+</html>
