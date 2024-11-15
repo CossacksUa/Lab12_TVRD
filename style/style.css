@@ -116,3 +116,18 @@ footer {
     align-items: flex-end; /* Вирівнює текст по вертикалі (знизу) */
     height: 70px; /* При необхідності задайте висоту футера */
 }
+
+
+code {
+    background-color: #eee;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-weight: bold;
+}
+     /* Individual Column Colors */
+     .column:nth-child(1) h2 { color: #4a90e2; }
+     .column:nth-child(2) h2 { color: #4a90e2; }
+     .column:nth-child(3) h2 { color: #66b266; }
+     .column:nth-child(4) h2 { color: #d14; }
+     .column:nth-child(5) h2 { color: #ff9900; }
